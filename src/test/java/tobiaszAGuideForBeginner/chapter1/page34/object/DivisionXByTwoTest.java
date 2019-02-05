@@ -8,14 +8,12 @@ public class DivisionXByTwoTest
 {
     private DivisionXByTwo underTest;
 
-
     @Before
     public void setUp()
     {
 
         this.underTest = new DivisionXByTwo();
     }
-
 
     @Test
     public void divisionForTwoWeExpectTrue()
