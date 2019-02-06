@@ -64,4 +64,18 @@ for loop:
         - Jesli wyrazenie jest spelnione (prawdziwe), zostaje wykonana instrukcja, a petla for kontynuuje itaracje.
 
  */
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* [Page 41]
 
+    Blok Kodu
+
+    -Blok kodu ~ przez blok kodu rozumiemy grupe dwu lub wiecej instrukcji.
+    np:
+        if(i<4)
+        {
+            v = w * h;
+            w = 0;
+        }
+
+ */
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -28,7 +28,7 @@ public class DemonstrationOfTheIfFunctionMainTest {
 
         //when
 
-        Assertions.assertThat(result).isEqualTo(false);
+        Assertions.assertThat(result).isEqualTo(true);
     }
 
     @Test
