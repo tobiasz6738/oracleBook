@@ -2,7 +2,7 @@ package tobiaszAGuideForBeginner.chapter1.page41.object;
 
 public class Block {
 
-    public void block(double x, double y)
+    public int block(double x, double y)
     {
         double z;
 
@@ -14,7 +14,7 @@ public class Block {
 
             System.out.println("z = " + z);
         }
-
+    return 0;
 
     }
 
