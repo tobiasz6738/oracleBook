@@ -7,7 +7,7 @@ public class BlockMain
     {
 
         Block block = new Block();
-        block.block(5,10);
+        block.block(0,10);
 
     }
 

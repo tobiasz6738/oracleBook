@@ -1,81 +1,43 @@
 package tobiaszAGuideForBeginner.chapter1.notes;
 
-public class Comment {
-
+public class Definitions {
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/* [Page 34/35]
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*[unit test]
 
-    - Zmienna(variable) ~ stanowi reprezentacje lokalizacji w pamieci, w ktorej mozna umiesci pewna wartosc.
+JUnit to test jednostkowy, który docelowo sprawdzaja, czy dana funkcjonalność działa zgodnie z jej przeznaczeniem.
+    Dobrą praktyką jest dzielenie JUnitów, tak aby testowały one tylko wybraną metodę lub funkcjonalność, zaczynając
+    od tych najprostszych, do coraz bardziej zaawansowanych..
 
- */
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/* [Page 35]
-
-    - Instrukcja ~ np int var1; ( zawiera deklaracje zmiennej var1 typu całkowitego )
-    - W jezyku Java musisz zadeklarowac kazda zmienna zanim zaczniesz ja uzywac. Co wiecej musisz okreslic typ wartosci,
-        ktore moze ona przechowywac, czyli typ zmiennej.
-
-    - W jezyku Java operatorem przypisania jest ' = '. Wartosc z prawej strony jest przypisana do zmiennej z lewej strony.
+Zaletą testów jednostkowych jest możliwość wykonywania na bieżąco w pełni zautomatyzowanych testów
+    na modyfikowanych elementach programu, co umożliwia często wychwycenie błędu natychmiast po jego pojawieniu
+    się i szybką jego lokalizację zanim dojdzie do wprowadzenia błędnego fragmentu do programu. Testy jednostkowe
+    są również formą specyfikacji. Z powyższych powodów są szczególnie popularne w programowaniu ekstremalnym.
 
  */
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/* [Page 36]
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*[JUnit]
 
-    - Jedna instrukcja deklaracji mozna zawierac deklaracje dwu lub wiecej zmiennych.
-        np: int x,y,z;
+JUnit – narzędzie służące do tworzenia powtarzalnych testów jednostkowych oprogramowania pisanego w języku Java.
 
- */
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/* [Page 38]
-
-    - Instruction if ~ okresla tok realizacji programu zaleznie od tego czy podany warunek zostanie spelniony czy nie.
-        - if(wyrazenie logiczne dajacy wynik true or false).
-
-if(condition)
-    {
-        instruction;
-    }
-
-if(3 > x)
-    {
-        System.out.println("text");
-    }
-
+Cechy JUnit:
+    - metoda najmniejszą jednostką testowania,
+    - przypadki testowe,
+    - oddzielenie testów od kodu,
+    - wiele mechanizmów uruchamiania,
+    - tworzenie raportów,
+    - integracja z różnymi środowiskami programistycznymi.
 
 
  */
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/* [Page 40]
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*[JUnit - English]
 
-for loop:
-
-    for(initialization; condition; iteration)
-    {
-        instruction
-    }
-    for(i = 0; i < 5; i++)
-    {
-        return i;
-    }
-
-   - Najczesciej inicjalizacja sprowadza sie do nadania wartosci poczatkowej petli.
-   - Warunek jest wyrazeniem logicznym sprawdzajacym wartosc zmiennej sterujacej.
-        - Jesli wyrazenie jest spelnione (prawdziwe), zostaje wykonana instrukcja, a petla for kontynuuje itaracje.
-
- */
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/* [Page 41]
-
-    Blok Kodu
-
-    -Blok kodu ~ przez blok kodu rozumiemy grupe dwu lub wiecej instrukcji.
-    np:
-        if(i<4)
-        {
-            v = w * h;
-            w = 0;
-        }
+Example of JUnit test fixture
+    Test methods
+    must be annotated by the @Test annotation. If the situation requires it, it is also possible
+    to define a method to execute before (or after) each (or all) of the test methods with the
+    @Before (or @After) and @BeforeClass (or @AfterClass) annotations.
 
  */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -107,7 +69,14 @@ for loop:
 
 
 
- *////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+
+
+
+ */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
 
 
@@ -158,10 +127,6 @@ for loop:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
 
- */
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
-
 
 
  */
@@ -195,5 +160,9 @@ for loop:
 
 
  */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
 
 
+
+ */
