@@ -26,6 +26,7 @@ public class Shortcut {
     Basic code completion   -- Ctrl + space --  (podstawowe uzupelnianie kodu)
     Generate code           -- Alt + Insert --  (generowanie kodu) pozwala wygenerować zarówno gettery, settery, konstruktory jak i metody z klasy Object jak equals(), czy toString()
     Extend selection        -- Ctrl + W --      (zaznaczanie kodu po linijce)
+    Mark kod                -- Shift + Top/down (zaznaczenie za pomoca strzałek)
     Show intention          -- Alt + Enter --   (w zależności od kontekstu pokazuje różne możliwości)
     actions and quick fixes
     Duplicate current line  -- Ctrl + D

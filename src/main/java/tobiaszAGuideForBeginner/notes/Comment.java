@@ -85,21 +85,62 @@ for loop:
 
  */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+/* [Page 103]
 
+    co to jest Klasa
+
+        - jest szeblonem definjujacym klase
+        - okresla dane obiektu jak i kod ktory dziala na tych danych
+        - Java uzywa specyfikacji klasy podczas tworzenia obiektu
+        - obiekty sa instancjami klasy ( innymi slowy klasa jest zestawem planow okreslajacych sposob konstrukcji obiekyu.
+        - fizyczna reprezetacja klasy w pamieci komputera powstanie dopiero na skutek utworzenie obiektu tej klasy.
+            -zmienne i metody tworzace klase nazywamy skladowymi klasy.
+
+   pamiętaj!
+
+        Klasa stanowi jedynie opis typu i nie tworzy zadnego obiektu. Aby utworzyc obiekt trzeba uzyc nastepujacej instrukcji
+            - Vehicle minivan = new Vehicle(); // tworzymy obiekt typu Vehicle o nazwie minivan
+                (po wykonaniu tej instrukcji minivan bedzie instancja klasy Vehicle, i bedzie posiadal fizyczna reprezentacje w pamieci komputera.
+
+        Za kazdym razem gdy tworzymy instancje klasy, powstaje obiekt zawierajacy wlasna kopie kazdej zmiennej skladowej zdefiniowanej przez klase.
+            zatem kazdy obiekt typu vehicle bedzie zawierac wlasna kopie zmiennych skladowych. Dostep do tych zmiennych mamy poprzez
+            operator zapisny za pomoca kropki (.). Operator ten laczy nazwe obiektu z nazwą zmiennej skladowej.
+                np: obiekt.skladowa
+
+ */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*[Page 105]
+
+      Objekt ( tworzenie obiektow )
+
+      Vehicle minivan = new Vehicle();
+
+        - deklaruje zmienna typu Vehicle
+        - sama zmienna jeszcze nie definiuje obiektu a jedynie moze zawierac refencje
+        - tworzy instancje obiektu i przypisuje zmiennej minivan referencje do tego obiektu.
+            (odobywa sie to poprzez operator new)
+        - operator new dynamiczne (czyli w trakcie działania ) przydziele pamiec dla obiektu i zwraca jego referencje ta jest de facto
+                adresem obiektu utworzonego w pamieci za pomoca instrukcji new. Zostaje ona prypisana zmiennej.
+                W języku Java wszystkie obiekty tworzone sa dynamicznie.
 
 
  */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+/*[Page 106]
 
+        Metoda
 
+        - metody sa podprogramami dzialajacymi na danych zdefinowanych w klasie oraz w wielu przypadkach udostepniajacymi
+            te dane.
+        - W wiekszosci przypadkow pozostale czesci programu komunikuja sie z klasa za posrednictwemjej Metod.
+        - metoda zawiera jedna lum wiele instrukcji
+        - metoda powinna wykonywac jedno zadanie
+        - kazda metoda ma nazwe za pomoca ktorej ja wywolasz
 
- */
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+        Parametry Metody
 
-
+        - parametry metody sa wlasciwie zmiennymi, ktore otrzymuja wartosc argumentow przekazanych metodzie podczas jej wywolania.
+        -
 
  */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
