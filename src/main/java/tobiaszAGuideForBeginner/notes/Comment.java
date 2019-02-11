@@ -159,9 +159,14 @@ for loop:
 
  *///
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+/* [page 117] Konstruktor
 
-
+        - zadania konstruktora jest inicjalizacja obiektu podczas jego tworzenia.
+        - konstruktor ma taka sama nazwe jak klasa
+        - jest podobny do metody
+        - konstruktory nie maja typu zwracanego
+        - zwykle nadaja poczatkowe wartosci zmiennym
+        - zawsze jest tworzony konstruktor domyslny chyba ze zdefiniujemy wlasny to domyslny sie nie utworzy
 
  *////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
