@@ -10,6 +10,6 @@ public class DivisionXByTwoMain
 
         System.out.println(example.getX());
         System.out.println(example.divisionForTwo());
-
+        //
     }
 }
