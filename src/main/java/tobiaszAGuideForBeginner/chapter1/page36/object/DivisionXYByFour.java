@@ -27,4 +27,21 @@ public class DivisionXYByFour
     {
         return y;
     }
+
+
+//    public Lazienka wykonczlazienke(Plan planArchi, double kasaNaMaterialu)
+//    {
+//        Lazienka result = new Lazienka();
+//
+//        result.setPlytki()
+//
+//        return result;
+//
+//    }
+//
+//    public Lazienka wykonczlazienkeZMaterialami(Plan planArchi, List<Material> listaMaterialow)
+//    {
+//
+//
+//    }
 }

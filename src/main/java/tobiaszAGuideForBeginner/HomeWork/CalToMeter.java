@@ -1,4 +1,4 @@
-package tobiaszAGuideForBeginner.chapter1.HomeWork;
+package tobiaszAGuideForBeginner.HomeWork;
 
 public class CalToMeter
 {
