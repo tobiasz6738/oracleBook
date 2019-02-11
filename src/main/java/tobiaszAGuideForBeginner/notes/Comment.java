@@ -142,7 +142,7 @@ for loop:
         - parametry metody sa wlasciwie zmiennymi, ktore otrzymuja wartosc argumentow przekazanych metodzie podczas jej wywolania.
         -
 
- */
+ *///
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
 
