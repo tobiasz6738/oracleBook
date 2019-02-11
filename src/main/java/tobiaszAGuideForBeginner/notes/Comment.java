@@ -169,15 +169,20 @@ for loop:
         - zawsze jest tworzony konstruktor domyslny chyba ze zdefiniujemy wlasny to domyslny sie nie utworzy
 
  *////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+/* [page 120] Operator new
 
+        - typ zmiennej  zmienna referencyjna =  new nazwa-klasy(argumenty jsli jest konstruktor)
 
+        - typ musi byc typ tworzonego obiektu
+        - nazwa klasy po kturej nastepuje lista argumentow umieszczona w nawiasach(moze byc pusta)okresla to konstruktor.
+        - jesli klasa nie okresla wlasnego konstruktora new dostanie domyslnego konstruktora
+        - new moze byc uzywany do tworzenia obiektow kazdej klasy.
 
  */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+/* [page 121] slowo kluczowe this
 
-
+        - słowo this powoduje ze mamy dostep do zmiennych (na samej gurze a nie lokalnych )
 
  */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
