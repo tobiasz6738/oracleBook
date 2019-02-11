@@ -23,8 +23,8 @@ public class TwoVehicleMain
         rage1 = (int) (minivan.getFuelcap() / minivan.getLkm() * 100);
         rage2 = (int) (sportsCar.getFuelcap() / sportsCar.getLkm() * 100);
 
-        System.out.println("zasieg minivana to" + rage1);
-        System.out.println("zasieg sportowego auta to" + rage2);
+        System.out.println("zasieg minivana to " + rage1);
+        System.out.println("zasieg sportowego auta to " + rage2);
 
     }
 }

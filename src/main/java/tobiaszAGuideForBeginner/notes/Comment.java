@@ -137,10 +137,25 @@ for loop:
         - metoda powinna wykonywac jedno zadanie
         - kazda metoda ma nazwe za pomoca ktorej ja wywolasz
 
-        Parametry Metody
+        Parametry Metody( metoda moze miec parametry lum ich nie posiadc)
 
         - parametry metody sa wlasciwie zmiennymi, ktore otrzymuja wartosc argumentow przekazanych metodzie podczas jej wywolania.
-        -
+
+        Stosowanie parametrow
+
+        - mozna przekazac metodzie jedna lub wiecej wartosci
+        - wartosc przekazywane metodzie nazywamy argumentami
+        - zmienne ktore otrzymuja wartosci nazywamy parametrami
+            - parametry metody deklarujemy wewnatrz nawiasow okraglych
+            - skladnia parametrow jest taka sama jak zwyklych zmiennych
+            - parametry naleza do zasiegu metody i pomijajac fakt ze otrzymuje wartosc argumentu wywolania metody, poza tym zachowuje sie jak karzda inna metoda.
+
+        Pod wzgledem zwracania metod
+        - metody dzielimy na dwa rodzaje (void) i (zwracajace cos + na koncu return [zawsze to jaki jest typ metody)
+               - void (czyli nic nie zwraca ) konczy sie na ostatnim nawiasie metody lub jak damy return; [czyli return kture nic nie zwraca]
+               - takie co zwracaja jakas wartosc np ( int,double,String i itd).
+
+
 
  *///
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
